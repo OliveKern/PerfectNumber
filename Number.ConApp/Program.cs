@@ -31,7 +31,19 @@ namespace Number.ConApp
                 output = $"{number} ist keine perfekte Zahl :-( ";
             }
 
+
             //Ausgabe (A)
+            Console.WriteLine(output);
+
+            if (Number.Logic.NumberProperty.IsPrime(number))
+            {
+                output = $"{number} ist eine Primzahl :-) ";
+            }
+            else
+            {
+                output = $"{number} ist keine Primzahl :-( ";
+            }
+
             Console.WriteLine(output);
         }
     }
