@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number.Logic", "Number.Logic\Number.Logic.csproj", "{EB458369-6A2F-444F-B522-BDEBBEE53CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number.ConApp", "Number.ConApp\Number.ConApp.csproj", "{FCF6B302-4BAD-449A-9128-ED924C7C0EDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{907CC444-74DE-4537-B036-0B47C4CC39CF}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB458369-6A2F-444F-B522-BDEBBEE53CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB458369-6A2F-444F-B522-BDEBBEE53CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB458369-6A2F-444F-B522-BDEBBEE53CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB458369-6A2F-444F-B522-BDEBBEE53CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF6B302-4BAD-449A-9128-ED924C7C0EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF6B302-4BAD-449A-9128-ED924C7C0EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF6B302-4BAD-449A-9128-ED924C7C0EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF6B302-4BAD-449A-9128-ED924C7C0EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECE44AF8-6922-426E-83AA-1C6966F3779D}
+	EndGlobalSection
+EndGlobal
